@@ -1,7 +1,18 @@
 body {
+    font-family: sans-serif;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-img {
     background-image: url('.//image/1.jpg');
     background-repeat: no-repeat;
-    font-family: sans-serif;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
 }
 
 .logo {
@@ -22,6 +33,7 @@ body {
 .container {
     max-width: 1080PX;
     width: 100%;
+    height: 100%;
     margin-left: auto;
     margin-right: auto;
 }
@@ -51,8 +63,10 @@ li {
     
 } */
 .avtar {
-    height: 456px;
+    height: 650px;
+    width: 520px;
     padding-left: 100px;
+    object-fit: cover;
 }
 
 .layout {
@@ -71,16 +85,19 @@ li {
     width: 50%;
     position: relative;
     z-index: -1;
+    margin-top: 20px;
+    margin-bottom: 60px;
 }
 
 .ai {
+
     color: orange;
-    /* border-radius: 20px  black; */
+    border-radius: 20px black;
     background-color: rgb(77, 20, 25);
     padding: 15px;
     position: absolute;
-    top: 45px;
-    left: 85px;
+    top: 75px;
+    left: 114px;
     font-size: 20px;
     border-radius: 10px;
     line-height: 23px;
@@ -94,12 +111,40 @@ li {
     background-color: rgb(21, 35, 95);
     padding: 15px;
     position: absolute;
-    top: 80px;
-    right: 107px;
+    top: 75px;
+    right: -6px;
     font-size: 20px;
     border-radius: 10px;
     line-height: 23px;
 }
+
+.rs {
+    /* color: #41f331; */
+    background-color: white;
+    padding: 15px;
+    position: absolute;
+    bottom: 138px;
+    left: 260px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 23px;
+
+}
+
+.dot {
+    width: 20px;
+    margin-top: 40px;
+    display: flex;
+    justify-items: center;
+    /* padding: 15px; */
+    /* position: absolute; */
+    /* bottom: 3px; */
+    /* left: 12px; */
+
+    /* border-radius: 10px; */
+
+}
+
 
 
 .hello {
@@ -143,18 +188,6 @@ li {
     overflow: hidden;
 }
 
-/* .about-button:before {
-    position: absolute;
-    content: "";
-    z-index: 0;
-    background-color: #f75023;
-    left: -5px;
-    right: -5px;
-    bottom: -5px;
-    height: 110%;
-    transition: all .3s ease;
-} */
-
 .about-button:hover:before {
     height: 0;
 }
@@ -196,7 +229,6 @@ li {
     color: black;
     padding: 15px;
     border-radius: 45px;
-    text-align: center;
 }
 
 .creativ {
@@ -215,4 +247,36 @@ li {
     display: flex;
 }
 
-.icons {}
+.container2 {
+    /* width: 100%; */
+    /* height: 500px; */
+    /* background-color: #fff; */
+}
+
+.default-padding {
+    padding: 0 25rem;
+}
+
+.gap-2rem {
+    gap: 2rem;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-cols-3 {
+    grid-template-columns: auto auto auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.items-center {
+    align-items: center;
+}
