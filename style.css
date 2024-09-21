@@ -170,11 +170,7 @@ li {
 
 .hello {
     color: rgb(235, 62, 62);
-    font-size: 45px;
-    /* font-size: 18px;
-    line-height: 30px; */
-    /* padding-top: 100px; */
-
+    font-size: 40px;
     margin-top: 101px;
     margin-bottom: -45px;
 
@@ -375,26 +371,81 @@ li {
     width: 50%;
     padding-left: 60px;
 }
-.first-img{
+
+.first-img {
     max-height: 600px;
     max-width: 591px;
     position: relative;
 }
-.left-dot{
-       display: flex;
-       position: absolute;
-       
+
+.left-dot {
+    display: flex;
+    background-color: white;
+    padding: 20px 48px 3px;;
+    position: absolute;
+    top: 129px;
+    left: 1px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 23px;
+    align-items: center;
+    box-shadow: 25px 0 65px rgba(54, 32, 152, .11);
+    
+}
+.right-dot{
+        display: flex;
         background-color: white;
-        padding: 20px;
+        padding: 1px 51px 0px;
         position: absolute;
-        top:50px;
-        left: 147px;
+        bottom: 69px;
+        left: 486px;
         font-size: 20px;
         border-radius: 10px;
         line-height: 23px;
-    }
-.right{
+        align-items: center;
+        box-shadow: 25px 0 65px rgba(54, 32, 152, .11);
+
+}
+
+.right {
     width: 50%;
     padding-left: 60px;
 
 }
+.second-detail{
+    margin-top: 118px;
+    margin-left: 25px;
+        
+}
+
+.design {
+    color: rgb(235, 62, 62);
+    font-size: 25px;
+    padding-top: 0px;
+    margin-top: 101px;
+
+}
+.asset{
+    position: absolute;
+    top: -39px;
+    left: -92px;
+}
+.assat-2{
+    position: relative;
+    right:0px;
+    }
+.potfolio-tital{
+         text-align: center;
+         max-width: 680px;
+         margin: 143px auto 65px;
+
+}
+.portfolio-detail{
+    width: 100%;
+    text-align: center;
+}
+.port-data{
+    color:rgb(235, 62, 62);
+}
+
+
