@@ -104,10 +104,6 @@ li {
 .avaterData {
     width: 50%;
     padding-left: 100px;
-    /* position: relative; */
-    /* z-index: -1; */
-    /* margin-top: 20px;
-    margin-bottom: 60px; */
 }
 
 .image {
@@ -381,7 +377,8 @@ li {
 .left-dot {
     display: flex;
     background-color: white;
-    padding: 20px 48px 3px;;
+    padding: 20px 48px 3px;
+    ;
     position: absolute;
     top: 129px;
     left: 1px;
@@ -390,20 +387,21 @@ li {
     line-height: 23px;
     align-items: center;
     box-shadow: 25px 0 65px rgba(54, 32, 152, .11);
-    
+
 }
-.right-dot{
-        display: flex;
-        background-color: white;
-        padding: 1px 51px 0px;
-        position: absolute;
-        bottom: 69px;
-        left: 486px;
-        font-size: 20px;
-        border-radius: 10px;
-        line-height: 23px;
-        align-items: center;
-        box-shadow: 25px 0 65px rgba(54, 32, 152, .11);
+
+.right-dot {
+    display: flex;
+    background-color: white;
+    padding: 1px 51px 0px;
+    position: absolute;
+    bottom: 69px;
+    left: 486px;
+    font-size: 20px;
+    border-radius: 10px;
+    line-height: 23px;
+    align-items: center;
+    box-shadow: 25px 0 65px rgba(54, 32, 152, .11);
 
 }
 
@@ -412,10 +410,11 @@ li {
     padding-left: 60px;
 
 }
-.second-detail{
+
+.second-detail {
     margin-top: 118px;
     margin-left: 25px;
-        
+
 }
 
 .design {
@@ -425,27 +424,80 @@ li {
     margin-top: 101px;
 
 }
-.asset{
+
+.asset {
     position: absolute;
     top: -39px;
     left: -92px;
 }
-.assat-2{
+
+.assat-2 {
     position: relative;
-    right:0px;
-    }
-.potfolio-tital{
-         text-align: center;
-         max-width: 680px;
-         margin: 143px auto 65px;
+    right: 0px;
+}
+
+.potfolio-tital {
+    text-align: center;
+    max-width: 680px;
+    margin: 143px auto 65px;
 
 }
-.portfolio-detail{
+
+.portfolio-detail {
     width: 100%;
     text-align: center;
 }
-.port-data{
-    color:rgb(235, 62, 62);
+
+.port-data {
+    color: rgb(235, 62, 62);
 }
 
+.gallary {
+    position: relative;
+    height: auto;
+    width: 100%;
+    min-height: 800px;
+}
 
+.gallary-1 {
+    position: absolute;
+    top: 0px;
+    left: 22px;
+}
+
+.gallary-2 {
+    position: absolute;
+    left: 473px;
+}
+
+.gallary-3 {
+    position: absolute;
+    left: 922px;
+}
+
+.gallary-4 {
+    position: absolute;
+    top: 571px;
+    left: 22px;
+
+}
+
+.gallary-5 {
+    position: absolute;
+    top: 312px;
+    left: 473px;
+    height: 520px;
+
+}
+
+.gallary-6 {
+    position: absolute;
+    top: 591px;
+    left: 923px;
+
+}
+
+data {
+    margin-top: 100px;
+    padding: 0px;
+}
